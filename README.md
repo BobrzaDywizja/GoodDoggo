@@ -22,7 +22,7 @@ Lista wszystkich psów doatepna przez endpoint `/dogs` zwracający listę wszyst
 ```
 
 ##### Konkretny pies
-Endpoint `/dogs/dog/1` zwracający zdjęcie konkretnego psa.
+Endpoint `/dogs/{id}` zwracający zdjęcie konkretnego psa.
 
 ```
 {
@@ -38,7 +38,7 @@ Endpoint `/dogs/dog/1` zwracający zdjęcie konkretnego psa.
 
 
 ##### Konkretna rasa psów
-Endpoint `/dogs/breeds/york/` zwracający listę wszystkich psów o podanej rasie.
+Endpoint `/dogs?breed=york` zwracający listę wszystkich psów o podanej rasie.
 
 ```
 {
