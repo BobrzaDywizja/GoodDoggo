@@ -1,0 +1,5 @@
+To do:
+	webscrapping google images
+	saving webscrapped images into database
+	collecting info from database 
+	filtering info and returning it in api
